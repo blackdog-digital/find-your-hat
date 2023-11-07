@@ -167,8 +167,8 @@ class Field {
 
 const fieldX = 20;
 const fieldY = 10;
-const holeRatio = 0.5
-const holesPerRow = 15
+const holeRatio = 0.15
+const holesPerRow = 5
 
 const { startX, startY, playField } = Field.generateField(fieldX, fieldY, holeRatio, holesPerRow);
 
